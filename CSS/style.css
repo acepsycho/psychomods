@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 1263px;
+    margin-top: 0px;
+}
+
+.navlist{
+    width: 78%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navlist li{
+    list-style-type: none;
+    padding: 2px 30px;
+
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navlist li a:hover{
+    color:rgb(108, 117, 124);
+}
+
+.rightnav{
+    width: 60%;
+    text-align: right;
+}
+
+/*.logo{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 50%;
+}*/
+#search{
+    font-size: 17px;
+    border: 1px solid rgb(19, 18, 18);
+    border-radius: 9px;
+    margin: 7%;
+}
+
+.boxmain{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+
+}
+.navtitle{
+    font-size: 20px;
+    font-family: 'Iceland', cursive;
+    padding: 8%;
+    margin-right: 310px;
+    color: white;
+}
+.btn-sm{
+    border: 1px solid rgb(19, 18, 18);
+    position: relative;
+    left: -25px;
+    top: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.firstH{
+    color: black;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutimg{
+    width: 85%;
+    padding-top: 5%;
+    padding-left: 64%;
+}
+
+.textbig{
+    padding-left: 41%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 39px;
+    margin-top: -18%;
+    width: 158%;
+
+}
+.textsmall{
+    padding-left: 41%;
+    font-size: 27px;
+    width: 92%;
+    font-family: 'Dongle', sans-serif;
+    margin-top: 25px;
+    color: #292743;
+}
+
+.maintitle{
+    margin-top: -7%;
+    font-size: 45px;
+    margin-left: 66px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+
+/*----------------------------------- I T E M S  -----------------------------------------*/
+
+
+.itemappname{
+    margin-left: 25%;
+    padding-left: 1%;
+    margin-top: -12%;
+    word-spacing: 107px;
+}
+
+.itemgenre{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 133px;
+}
+.itemsize{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 145px;
+}
+.itemfeature{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 124px;
+}
+.itemprice{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 139px;
+}
+
+.itemabouttext{
+    font-size: 30px;
+    font-family: 'Hind Madurai';
+    margin-left: 60px;
+    margin-top: 46px;
+    width: 20%;
+}
+
+.iteminfo{
+    font-family: 'Iceland';
+    font-size: 20px;
+    padding-left: 60px;
+    margin-top: 21px;
+    width: 63%;
+}
+
+/*----------------------------------- C U S T O M -----------------------------------------*/
+
+.apptxt{
+    font-size: 39px;
+    font-family: 'Mohave', sans-serif;
+    margin-left: 66px;
+}
+
+.greyappinfo{
+    width: 26%;
+    background-color: #ececec;
+    font-size: 20px;
+    font-family: 'Dongle';
+}
+
+.whiteappinfo{
+    width: 26%;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Dongle'
+}
+/*----------------------------------- S P O T I F Y -----------------------------------------*/
+.spotifyimg{
+    width: 181px;
+    margin-left: 42px;
+    margin-top: 21px;
+}
+
+.spotifytitle{
+    margin-top: 23px;
+    width: 45%;
+}
+
+.spotifyappname{
+    margin-left: 25%;
+    padding-left: 1%;
+    margin-top: -12%;
+    word-spacing: 107px;
+}
+
+.spotifygenre{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 133px;
+}
+.spotifysize{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 145px;
+}
+.spotifyfeature{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 124px;
+}
+.spotifyprice{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 139px;
+}
+.downloadbtn{
+    text-decoration: none;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: #00a300;
+    color: white;
+    margin-left: 64px;
+    border-radius: 11px;
+    font-family: 'CABIN';
+    padding-bottom: 7px;
+    vertical-align: -62px;
+    padding: 6px 230px;
+}
+
+/*----------------------------------- N E T F L I X -----------------------------------------*/
+
+.netflixtitle{
+    margin-left: 60px;
+    margin-top: 43px;
+}
+
+.netfliximg{
+    width: 138px;
+    margin-left: 60px;
+    border-radius: 31px;
+    margin-top: 21px;
+}
+.netflixappname{
+    margin-left: 25%;
+    padding-left: 1%;
+    margin-top: -12%;
+    word-spacing: 107px;
+}
+
+.netflixgenre{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 133px;
+}
+
+.netflixsize{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 145px;
+}
+
+.netflixfeature{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 124px;
+}
+
+.netflixprice{
+    margin-left: 25%;
+    padding-left: 1%;
+    word-spacing: 139px;
+}
+/*----------------------------------- F O O T E R -----------------------------------------*/
+
+.footerinfo{
+    background-color: #ececec;
+    padding-top: 84px;
+    margin-top: -41px;
+    font-size: 16px;
+    padding-left: 270px;
+    font-family: sans-serif;
+    padding-bottom: 66px;
+}
+
+.footertitle{
+    font-family: 'Iceland', cursive;
+    font-size: 34px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 26px;
+    background-color: #ececec;
+    padding-left: 45%;
+}
+/*.footerinsta{
+    width: 22px;
+    margin-left: 41%;
+    margin-top: -34px;
+    display: flex;
+}
+
+.footerinsta :hover{
+    color: #ececec;
+}*/
+
+.myinsta_acc{
+    text-decoration: none;
+    font-family: monospace;
+    display: flex;
+    margin-top: -26px;
+    margin-left: 37%;
+    color: black;
+    width: 66px;
+}
+.myinsta_png{
+    width: 16px;
+    display: flex;
+    margin-left: 447px;
+    margin-top: -16px;
+}
+
+.myyt_acc{
+    text-decoration: none;
+    font-family: monospace;
+    display: flex;
+    margin-top: -15px;
+    margin-left: 49%;
+    color: black;
+    width: 66px;
+}
+
+.myyt_png{
+    width: 20px;
+    display: flex;
+    margin-left: 595px;
+    margin-top: -14px;
+}
+
+.mygit_acc{
+    text-decoration: none;
+    font-family: monospace;
+    display: flex;
+    margin-top: -15px;
+    margin-left: 61%;
+    color: black;
+    width: 66px;
+}
+
+.mygit_png{
+    width: 23px;
+    display: flex;
+    margin-left: 746px;
+    margin-top: -37px;
+}

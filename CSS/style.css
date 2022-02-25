@@ -10,8 +10,8 @@
     justify-content: center;
     position: sticky;
     top: 0;
-    background-color: black;
-    width: 1263px;
+    background-color: rgb(255, 255, 255);
+    width: 1265px;
     margin-top: 0px;
 }
 
@@ -28,7 +28,7 @@
 }
 .navlist li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navlist li a:hover{
@@ -72,7 +72,7 @@
     font-family: 'Iceland', cursive;
     padding: 8%;
     margin-right: 310px;
-    color: white;
+    color: black;
 }
 .btn-sm{
     border: 1px solid rgb(19, 18, 18);
@@ -364,4 +364,38 @@
     display: flex;
     margin-left: 746px;
     margin-top: -37px;
+}
+
+@media only screen and (max-width: 1145px){
+    .navlist{
+        flex-direction: column;
+        margin-top: 269px;
+    }
+
+    #search{
+        display: none;
+    }
+
+    .btn-sm{
+        display: none;
+    }
+
+    .navbar{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .navlist a{
+        text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    line-height: 4;
+    }
+
+    .navtitle{
+        margin: auto;
+        padding-top: 136px;
+        line-height: 3;
+    }
 }

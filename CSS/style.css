@@ -11,7 +11,7 @@
     position: sticky;
     top: 0;
     background-color: rgb(255, 255, 255);
-    width: 1265px;
+    width: 1240px;
     margin-top: 0px;
 }
 
@@ -366,7 +366,7 @@
     margin-top: -37px;
 }
 
-@media only screen and (max-width: 1145px){
+@media only screen and(max-width: 1150px) {
     .navlist{
         flex-direction: column;
         margin-top: 269px;
@@ -398,4 +398,5 @@
         padding-top: 136px;
         line-height: 3;
     }
+    }   
 }

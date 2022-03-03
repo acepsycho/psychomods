@@ -365,38 +365,3 @@
     margin-left: 746px;
     margin-top: -37px;
 }
-
-@media only screen and(max-width: 1150px){
-    .navlist{
-        flex-direction: column;
-        margin-top: 269px;
-    }
-
-    #search{
-        display: none;
-    }
-
-    .btn-sm{
-        display: none;
-    }
-
-    .navbar{
-        flex-direction: column;
-        margin-top: 25px;
-    }
-
-    .navlist a{
-        text-decoration: none;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    float: right;
-    line-height: 4;
-    }
-
-    .navtitle{
-        margin: auto;
-        padding-top: 136px;
-        line-height: 3;
-    }
-    }   
-}
